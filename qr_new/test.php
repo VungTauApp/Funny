@@ -7,5 +7,4 @@
 		$page = ($row / 5 );
 	}else $page= (int)(1+$row/5);
 	echo $page;
-//kjasdkfjasdkjfkasdjflkjadsljfksdaljfklj
 ?>
