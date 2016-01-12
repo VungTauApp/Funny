@@ -1,0 +1,95 @@
+@charset "utf-8";
+.form {
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+}
+.form input[type=text], input[type=number] {
+	font-size: 25px;
+	border-radius: 10px;
+	background: linear-gradient(to bottom, #FFF, #CCC);
+	text-align: center;
+	padding: 2px;
+	width: 300px;
+}
+.form input:read-only {
+ color: #666;
+}
+.form select {
+	font-size: 25px;
+	border-radius: 10px;
+	background: #E9E9E9;
+	text-indent: 35%;
+	padding: 2px;
+	border-color: transparent;
+	width: 308px;
+	height: 37px;
+	border-top-color: #999;
+	border-top-width: 2px;
+	border-left-width: 2px;
+	border-left-color: #999;
+	background: linear-gradient(to bottom, #FFF, #CCC);
+}
+label {
+	width: 150px;
+	float: left;
+	text-align: left;
+	margin-right: 80px;
+}
+.hang {
+	height: 50px;
+	margin-left: 50px;
+}
+.btn {
+	height: 35px;
+	width: 130px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+.btn:hover, .btn:focus {
+	background-image: linear-gradient(to bottom, #F0F0F0, #D3D3D3);
+}
+.f-r {
+	float: right;
+	margin-right: 150px;
+}
+.f-l {
+	float: left;
+	text-align:center;
+}
+.avatar {
+	width: 170px;
+	border-radius: 15px;
+	height: 200px;
+	border: 3px #000099 solid;
+}
+.image-choose {
+	width: 100px;
+	position: relative;
+	overflow: hidden;
+	background-color:#D7D7D7;
+	border-radius:10px;
+	margin:auto;
+}
+.image-choose:hover, .image-choose:focus {
+	background-image: linear-gradient(to bottom, #F0F0F0, #D3D3D3);
+}
+
+.browsefile {
+	width: 100px;
+	height: 60px;
+	font-size:13px;
+}
+.image-choose input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
