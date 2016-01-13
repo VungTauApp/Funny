@@ -1,6 +1,6 @@
 <html>
 
-<body>
+<body> //sua lai
 	<form action="delete.php" method="post">
     	ID:<input type="text" name="ma"><br/>
         <input type="submit">
